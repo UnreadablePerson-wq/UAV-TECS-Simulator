@@ -1,0 +1,12 @@
+# Автоматически определять текстовые файлы
+* text=auto
+
+# Python файлы
+*.py text diff=python
+
+# Markdown
+*.md text
+
+# Изображения
+*.png binary
+*.jpg binary
