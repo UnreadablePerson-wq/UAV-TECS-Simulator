@@ -29,6 +29,7 @@
 - Matplotlib - построение графиков
 
 ## 📁 Структура проекта
+```
 UAV-TECS-Simulator/
 │
 ├── main.py # Точка входа
@@ -49,26 +50,25 @@ UAV-TECS-Simulator/
 └── gui/ # Интерфейс
 ├── main_window.py # Главное окно
 └── control_panel.py # Панель управления
-
+```
 
 ## 🚀 Установка и запуск
+```
+**Клонируйте репозиторий**
+git clone https://github.com/UnreadablePerson-wq/UAV-TECS-Simulator.git
+cd UAV-TECS-Simulator
 
-1. **Клонируйте репозиторий**
-   ```bash
-   git clone https://github.com/UnreadablePerson-wq/UAV-TECS-Simulator.git
-   cd UAV-TECS-Simulator
 Создайте виртуальное окружение (рекомендуется)
-
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
+
 Установите зависимости
-
 pip install -r requirements.txt
+
 Запустите симулятор
-
 python main.py
-
+```
 
 ## 🎮 Управление
 TECS: включение/выключение, задание высоты и скорости
